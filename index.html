@@ -1,32 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="bg-[#232020] h-[80px]">
+      <div
+        class="flex p-[15px] justify-between items-center max-w-[1200px] m-auto"
+      >
+        <div class="w-[130px]">
+          <img src="./images/Безымянный-2 3.png" alt="" />
+        </div>
+        <nav class="hidden lg:flex text-white gap-[35px]">
+          <a href="./index.html">О компании</a>
+          <a href="">Услуги</a>
+          <a href="">Направления</a>
+          <a href="">Готовые решения</a>
+          <a href="#">Проекты</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <div class="text-white flex flex-col gap-[7px] items-center">
+          <p class="font-bold">+7 (495) 999 88 77</p>
+          <p class="text-[13px]">пн-пт с 9.00 до 19.00</p>
+        </div>
+      </div>
+    </header>
 
-   <header class="bg-[#232020] h-[80px]">
-    <div class=" flex p-[15px] justify-between items-center max-w-[1300px] m-auto">
-     <div class="w-[130px]">
-        <img src="./images/Безымянный-2 3.png" alt="">
-     </div>
-     <nav class="hidden lg:flex text-white gap-[35px]">
-        <a href="./index.html">О компании</a>
-        <a href="">Услуги</a>
-        <a href="">Направления</a>
-        <a href="">Готовые решения</a>
-        <a href="#">Проекты</a>
-        <a href="#">Контакты</a>
-     </nav>
-     <div class="text-white flex flex-col gap-[7px] items-center">
-        <p class="font-bold">+7 (495) 999 88 77</p>
-        <p class="text-[13px]">пн-пт с 9.00 до 19.00</p>
-     </div>
-     </div>
-   </header>   
-    
-</body>
+    <main>
+      <section class="bg-[#412C27] h-[500px] ">
+        <div class="text-white px-[30px] py-[20px] flex flex-col gap-[30px] items-start max-w-[1200px] m-auto">
+            <p class="text-[30px] font-bold lg:text-[60px]">Электромонтажные работы</p>
+            <button class="text-[20px] font-bold bg-[#1F30D8] p-[5px]">на коммерческих объектах</button>
+            <p class="lg:w-[500px] lg:text-[20px]">
+                Сборка и дальнейший монтаж электрощита – ответственные операции. От
+                качества сборки данного элемента зависит равномерное и стабильное
+                распределение электрической энергии.
+            </p>
+            <button class="flex gap-[20px] bg-[#1F30D8] p-[30px] items-center rounded-3xl text-[20px]">Подробнее
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
