@@ -1,32 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="bg-[#232020] h-[80px]">
+      <div
+        class="flex p-[15px] justify-between items-center max-w-[1200px] m-auto"
+      >
+        <div class="w-[130px]">
+          <img src="./images/Безымянный-2 3.png" alt="" />
+        </div>
+        <nav class="hidden lg:flex text-white gap-[35px]">
+          <a href="./index.html">О компании</a>
+          <a href="">Услуги</a>
+          <a href="">Направления</a>
+          <a href="">Готовые решения</a>
+          <a href="#">Проекты</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <div class="text-white flex flex-col gap-[7px] items-center">
+          <p class="font-bold">+7 (495) 999 88 77</p>
+          <p class="text-[13px]">пн-пт с 9.00 до 19.00</p>
+        </div>
+      </div>
+    </header>
 
-   <header class="bg-[#232020] h-[80px]">
-    <div class=" flex p-[15px] justify-between items-center max-w-[1300px] m-auto">
-     <div class="w-[130px]">
-        <img src="./images/Безымянный-2 3.png" alt="">
-     </div>
-     <nav class="hidden lg:flex text-white gap-[35px]">
-        <a href="./index.html">О компании</a>
-        <a href="">Услуги</a>
-        <a href="">Направления</a>
-        <a href="">Готовые решения</a>
-        <a href="#">Проекты</a>
-        <a href="#">Контакты</a>
-     </nav>
-     <div class="text-white flex flex-col gap-[7px] items-center">
-        <p class="font-bold">+7 (495) 999 88 77</p>
-        <p class="text-[13px]">пн-пт с 9.00 до 19.00</p>
-     </div>
-     </div>
-   </header>   
-    
-</body>
+    <main>
+      <section class="bg-[#412C27] h-[500px]">
+        <div
+          class="text-white px-[30px] py-[20px] flex flex-col gap-[30px] items-start max-w-[1200px] m-auto"
+        >
+          <p class="text-[30px] font-bold lg:text-[60px]">
+            Электромонтажные работы
+          </p>
+          <button class="text-[20px] font-bold bg-[#1F30D8] p-[5px]">
+            на коммерческих объектах
+          </button>
+          <p class="lg:w-[500px] lg:text-[20px]">
+            Сборка и дальнейший монтаж электрощита – ответственные операции. От
+            качества сборки данного элемента зависит равномерное и стабильное
+            распределение электрической энергии.
+          </p>
+          <button
+            class="flex gap-[20px] bg-[#1F30D8] p-[30px] items-center rounded-3xl text-[20px]"
+          >
+            Подробнее
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+      <section class="p-[30px] max-w-[1000px] m-auto">
+        <div class="flex flex-col gap-[40px] items-start">
+          <p
+            class="text-2xl font-bold lg:text-[60px] text-shadow-[2px_2px_5px_gray]"
+          >
+            Готовые решения от РСЭМ
+          </p>
+          <p class="lg:w-[600px] lg:text-[20px] text-[#3D3D3D]">
+            Рыбатекст используется дизайнерами, проектировщиками и
+            фронтендерами, когда нужно быстро заполнить макеты или прототипы
+            содержимым. Это тестовый контент, который не должен нести никакого
+            смысла, лишь показать наличие самого текста или продемонстрировать
+            типографику в деле.
+          </p>
+          <button
+            class="text-white font-bold bg-[#1F30D5] py-[20px] px-[25px] rounded-[20px] flex gap-[20px] items-center"
+          >
+            Перейти к решениям
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="my-[30px] grid grid-cols-2 gap-[15px] lg:flex">
+          <div
+            class="bg-[#F8F8F8] w-[160px] h-[150px] rounded-[20px] px-[12px] flex flex-col gap-[15px] items-center justify-center"
+          >
+            <p class="text-4xl text-[#313FC2] font-bold">10 лет</p>
+            <p>успешной работы</p>
+          </div>
+          <div
+            class="bg-[#F8F8F8] w-[160px] h-[150px] rounded-[20px] px-[12px] flex flex-col gap-[15px] items-center justify-center"
+          >
+            <p class="text-4xl text-[#313FC2] font-bold">50+</p>
+            <p>заказчиков</p>
+          </div>
+          <div
+            class="bg-[#F8F8F8] h-[150px] rounded-[20px] px-[12px] flex flex-col gap-[15px] items-center justify-center lg:w-[160px]"
+          >
+            <p class="text-4xl text-[#313FC2] font-bold">200+</p>
+            <p>проектов</p>
+          </div>
+        </div>
+      </section>
+      <section class="px-[15px] max-w-[1000px] m-auto">
+        <div class="grid gap-[12px] lg:grid-cols-3">
+          <div>
+            <img src="./images/Rectangle 2178.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2179.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2180.png" alt="" />
+          </div>
+          <div class="lg:col-span-2">
+            <img src="./images/Rectangle 2181.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2182.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2183.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2184.png" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle 2185.png" alt="" />
+          </div>
+          <div class="bg-[#0018FF] p-[20px] lg:col-span-2 lg:flex flex-row">
+            <div class="flex flex-col gap-[15px] items-start">
+              <p class="text-white text-2xl font-bold">
+                Хотите поговорить с экспертом?
+              </p>
+              <p class="text-white lg:text-[20px]">
+                Рыбатекст используется дизайнерами, проектировщиками и
+                фронтендерами,
+              </p>
+              <button
+                class="text-[#0018FF] font-bold bg-white py-[17px] px-[30px] rounded-[20px]"
+              >
+                Консультация
+              </button>
+            </div>
+            <div>
+              <img src="./images/talk-11 1.png" alt="" />
+            </div>
+          </div>
+          <div>
+            <img src="./images/Rectangle 2186.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#535559] my-[30px] mx-[20px] lg:mx-[0px]">
+        <div
+          class="text-white p-[20px] flex flex-col gap-[15px] max-w-[800px] m-auto py-[50px]"
+        >
+          <p class="text-2xl font-bold text-6xl">
+            Реализуйте свой проект всесте с РСЭМ
+          </p>
+          <p
+            class="bg-[#2031D7] text-[20px] font-bold p-[20px] rounded-[20px] w-[230px]"
+          >
+            К проектам
+            <i class="fa-solid fa-arrow-right"></i>
+          </p>
+        </div>
+      </section>
+      <section class="px-[20px] flex flex-col gap-[15px] lg:flex-row max-w-[1200px] m-auto items-center">
+        <div class="flex flex-col gap-[15px] lg:w-[50%]">
+          <p class="text-2xl font-bold lg:text-[54px]">Корпоративная ответственность</p>
+          <p class="text-[#3D3D3D] lg:text-[18px]">
+            Рыбатекст используется дизайнерами, проектировщиками и
+            фронтендерами, когда нужно быстро заполнить макеты или прототипы
+            содержимым. Это тестовый контент, который не должен нести никакого
+            смысла, лишь показать наличие самого текста или продемонстрировать
+            типографику в деле.Рыбатекст используется дизайнерами,
+            проектировщиками и фронтендерами, когда нужно быстро заполнить
+            макеты или прототипы содержимым. Это тестовый контент, который не
+            должен нести никакого смысла, лишь показать наличие самого текста
+            или продемонстрировать типографику в деле.
+          </p>
+        </div>
+        <div>
+            <img src="./images/Rectangle 2190.png" alt="">
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
